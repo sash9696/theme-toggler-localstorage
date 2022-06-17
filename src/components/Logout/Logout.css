@@ -1,0 +1,13 @@
+
+.login_button{
+    width: 200px;
+    padding: 10px 25px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.login_button:hover{
+    background-color: gray;
+}
