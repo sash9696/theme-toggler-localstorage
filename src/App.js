@@ -9,11 +9,6 @@ function App() {
   const { user, isAuthenticated, isLoading } = useAuth0();
   console.log(user);
 
-  dispatch({
-    username: user.name,
-    user_email: user.email,
-  });
-
   const { theme, dark, toggle } = React.useContext(ThemeContext);
 
   if (isLoading) {
